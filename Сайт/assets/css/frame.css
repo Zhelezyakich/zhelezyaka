@@ -1,0 +1,14 @@
+html, body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    color: white;
+}
+
+legend{
+    font-size: 28px;
+}
+
+p{
+    font-size: 18px;
+}

@@ -1,0 +1,179 @@
+html, body {
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:#303030;
+    overflow: overlay;
+}
+
+header {
+    font-family: 'Trebuchet ms', sans-serif;
+    padding-left: 9%;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: #272727;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+a { 
+    border: 8px solid #272727; 
+    color: #D6D6D6; margin-right: 2%; 
+    text-decoration: none;   
+    text-shadow: 1px 1px black;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover{
+    color: #EAEAEA;
+    box-shadow: 0 1px 0 white, 0 2px 0 #969696;
+}
+
+.block {
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #272727;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Trebuchet ms';
+    color: white;
+    font-size: 3vw;
+    margin-left: 9%;
+}
+
+p,ul,label {
+    font-family: 'Candara';
+    font-size: 1vw;
+    color: white;
+}
+
+p{
+    text-indent: 25px;
+}
+
+.img {
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.img:after{
+    content: "";
+    position: absolute;
+    left: 5%;
+    top: 6.4%;
+    width: 90%;
+    height: 93%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%);
+}
+
+.top-left {
+    font-family: 'Trebuchet ms', sans-serif;
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 9%;
+}
+
+.bottom-left {
+    font-family: 'Trebuchet ms', sans-serif;
+    font-size: 1vw;
+    color: white;
+    position: absolute;
+    bottom: 40%;
+    left: 9%;
+    text-align: justify;
+    width: 40%;
+}
+
+.here {
+    box-shadow: 0 1px 0 white, 0 2px 0 #969696;
+    color: #EAEAEA
+}
+
+.righttextimg{
+    margin-left: 22%;
+}
+
+ul {
+    line-height: 2.05;
+}
+
+.img2{
+    padding-left: 9%;
+}
+
+h2, legend{
+    font-family: 'Trebuchet ms';
+    color: white;
+    font-size: 2vw;  
+}
+
+h3 {
+    font-family: 'Trebuchet ms';
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.anchor {
+    color: #D6D6D6;
+    text-decoration: underline;
+    border: 0px;
+    text-shadow: none;
+    margin-right: 0%;
+    font-family: Arial;
+}
+
+.anchor:hover {
+    box-shadow: none;
+}
+
+.center {
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+}
+
+table {
+    font-family: Candara;
+    width: 35%;
+    border: 1px solid grey;
+    color: white;
+    font-size: 1vw;
+}
+
+th {
+    border: 1px solid grey;
+ }
+
+ td {
+    border: 1px solid grey;
+ }
+
+fieldset {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+}
